@@ -1,7 +1,8 @@
 # Data-analysis-projects
 This repo contains the projects related to data analysis
 
-**Time-Series-Analysis**
+**1. Time-Series-Analysis**
+
 The file demonstrates how to perform time series analysis on stock price data using Python and the yfinance and Plotly libraries.
 
 The first part of the code collects the latest stock price data for Apple using the yfinance API. The data is downloaded and stored in a Pandas dataframe with the date index.
@@ -16,7 +17,8 @@ The fourth plot is a line plot created using Plotly Express. It shows the trends
 
 The final part of the code demonstrates how to create an interactive candlestick chart using Plotly Graph Objects. The chart allows the user to select a specific time interval by using a slider and buttons to control the time interval. The rangeslider_visible parameter is set to True to enable the slider, and the rangeselector parameter is set to display the buttons for selecting the time interval. The available time intervals are specified using the list of dictionary objects, where each object contains the count of the time interval, the label to display on the button, and the step to move back or forward in time.
 
-**Covid-19 Impact analysis**
+**2. Covid-19 Impact analysis**
+
 This project is a Covid-19 impact analysis case study that explores the adverse effects of the pandemic on various countries. The project uses a dataset that contains information on human development index, daily Covid-19 cases and deaths, stringency index, population, and GDP per capita of different countries.
 
 The project starts with data cleaning by removing unwanted columns, identifying missing values, and changing the datatype of the column. After data cleaning, the project aggregates the data from both datasets and creates a new dataset by combining the necessary columns. The aggregated data contains information on total cases, total deaths, stringency index, population, and GDP during and before Covid-19.
@@ -25,7 +27,7 @@ The project then visualizes the data to analyze the spread of Covid-19 in differ
 
 Overall, this project provides a comprehensive analysis of the impact of Covid-19 on different countries and demonstrates the importance of data analysis in understanding global events.
 
-**Supermarket Sales**
+**3. Supermarket Sales**
 This case study mainly focuses on Exploratory Data Analysis.
 This case study presents a real-world scenario where data-driven insights influence important decisions. This case study explores a supermarket chain's transaction-level sales data and derive useful business insights.
 The flow of the case study involves Data wrangling, Univariate analysis, Bivariate/Multivariate analysis and Final Insights.
